@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+}
+
+.banner {
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 0px;
+    width: 600px;
+    height: 240px;
+}
+
+.banner img {
+    width: 600px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.background {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.discord-profile-card {
+    border: 5px solid #f96d89;
+    background: linear-gradient(to bottom right, #860c4b, #c64a8a);
+    width: auto;
+    height: auto;
+    min-width: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    background-color: #2f3136;
+    border-radius: 10px;
+    padding: 15px;
+    padding-bottom: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.discord-profile-card.show {
+    opacity: 1;
+}
+
+
+.profile-picture {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    max-width: 150px;
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 50%;
+
+    top: -110px;
+    margin-bottom: -110px;
+}
+
+
+.profile-info {
+    text-align: left;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: auto;
+    margin-top: 65px;
+}
+
+.profile-picture img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    border-radius: 50%;
+}
+
+.text-background {
+    background-color: #2f3136d6;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-top: 0px;
+}
